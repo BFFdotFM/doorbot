@@ -1,0 +1,4 @@
+<Response>
+<Say voice="woman">Access granted.</Say>
+<Play>http://simplytheguest.com/bff/9.wav</Play>
+</Response>
