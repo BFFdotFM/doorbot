@@ -1,4 +1,12 @@
 # doorbot
-Twilio script used to unlock the door
 
-You'll need a twilio account, twilio number local to the door, ability to change the door to call the twilio number, and a PHP compatible hosting provider.  Note that the codes are hard coded and not stored encrypted, so you'd better hope that security by obscurity is on your side.
+A Twilio script to unlock a door.
+
+## Requirements
+
+You'll need a twilio account, twilio number local to the door, ability to change the door to
+call the twilio number, and a PHP compatible hosting provider.
+
+## Configuration
+
+Edit `config.php` to set your operating domain, fallback operator phone-number, and acceptable codes.

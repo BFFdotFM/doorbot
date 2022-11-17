@@ -1,4 +1,0 @@
-<Response>
-<Say voice="woman">Connecting you to the operator.</Say>
-<Dial>212-555-1212</Dial>
-</Response>
