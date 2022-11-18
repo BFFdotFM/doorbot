@@ -4,5 +4,5 @@
   echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 ?>
 <Response>
-  <Say voice="woman">I'm sorry, your code was not accepted.</Say>
+  <Say voice="woman">Access is not available at this hour. Please try again later.</Say>
 </Response>
