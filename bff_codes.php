@@ -34,11 +34,11 @@ if ($code == '0' && $operatorPhoneNumber) {
 # Successful code
 if (array_key_exists($code, $codeList)) {
 	log_access('Code Accepted: ' . $codeList[$code]);
-	header("Location: return_open.php");
+	header('Location: return_open.php');
 	die;
 }
 
 # Code does not match
-log_access("Code Rejected: ".$code);
-header("Location: return_failed.php");
+log_access('Code Rejected: ' . ($code ?? 'No Code Provided'));
+header('Location: return_failed.php');
 die;
